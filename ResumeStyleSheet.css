@@ -22,7 +22,7 @@ CSS align (https://www.w3schools.com/css/css_align.asp),
 CSS box model (https://www.w3schools.com/css/css_boxmodel.asp)  */
 .floatRight {
 	float: right;
-	width: 40%;
+	width: 50%;
 	height: auto;
 	max-width: 500px;
     padding: 10px;
@@ -31,7 +31,7 @@ CSS box model (https://www.w3schools.com/css/css_boxmodel.asp)  */
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+	width: 80%;
 	height: auto;
 	max-width: 500px;
     padding: 10px;
@@ -73,7 +73,7 @@ header {
   background-color: #6F5B3E;
   padding: 10px;
   text-align: center;
-  font-size: 200%;
+  font-size: 150%;
   color: #F9F6F0;
 }
 h3 {
