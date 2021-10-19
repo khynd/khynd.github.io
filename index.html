@@ -1,0 +1,65 @@
+<!-- The layout of this document was made with reference to w3schools responsive design (https://www.w3schools.com/html/html_responsive.asp). 
+		The following Optional Choices are featured on this page: Responsive design (in head), 
+		Use of at least 3 semantic elements (header, footer, section, nav, article), 
+		5 images (this page has 1 of the 5)
+		-->
+
+<!DOCTYPE html>
+<html>
+<!-- The head section displays the website title, reference to the css style sheet, and the requirements for a responsive website design.
+		Style was created with reference to the following w3schools: 
+			HTML elements (https://www.w3schools.com/html/html_elements.asp), 
+			HTML css (for external css line) (https://www.w3schools.com/html/html_css.asp), 
+			HTML Responsive website design (for the 2 lines starting with <meta ) (https://www.w3schools.com/html/html_responsive.asp) -->
+<head>
+<title>Kacy's Resume</title>
+<link rel="stylesheet" href="ResumeStyleSheet.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<!-- The header section features the "topCorners" ID that rounds the edges of the border, which is references in comments of my css stylesheet.
+		Creation and use of this ID aided by w3schools HTML ID (https://www.w3schools.com/html/html_id.asp) -->
+<header id="topCorners">
+  <h2>Kacy's Resume</h2>
+</header>
+<!-- The section element is split into a nav element and an article element, which are displayed with next to eachother or stacked depending on the screensize-->
+<section>
+  <nav>
+	<!-- The nav element holds an unordered list, each of which have relative path links to the pages that make up this website.
+			List was formatted with reference to w3 schools HTML lists (https://www.w3schools.com/html/html_lists.asp), 
+			and HTML Links (https://www.w3schools.com/html/html_links.asp) -->
+    <ul>
+      <li><a href="index.html">Overview</a></li>
+      <li><a href="work.html">Professional Experience</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="skills.html">Skills and Attributes</a></li>
+    </ul>
+  </nav>
+  <!-- The article element features 2 content sections each with a h1 heading. It contains the first of 5 images. The image link was placed below
+		the About Me heading to be lined up with the content in that section. I ended up not having the energy 
+		to write an "about me" but that is where I would put one if I had it!
+		This section was created with reference to the following w3schools:
+		HTML Images (https://www.w3schools.com/html/html_images.asp), 
+		HTML CLasses (https://www.w3schools.com/html/html_classes.asp).  -->
+  <article>
+    <h1>About Me</h1>
+	<img src="images/headshot.jpg" alt="Headshot" class="floatRight">
+    <p>This is where I would put a short "about me" section if I had more time to write it. In any case, welcome to my website! I have dubbed this colour scheme "s'mores", please enjoy!</p>
+    <h1>Resume Highlights</h1>
+    <p> I am currently enrolled in the Geographic Information Systems- Application Specialist program at Fleming College’s School of Environmental and Natural Resource Sciences. I also have a Honours Bachelor of Arts from the University of Toronto, and a diploma from Fleming College's Ecosystem Managment program. I am technologically proficient, including the use of Microsoft products, and ESRI products.</p>
+  </article>
+</section>
+
+<!-- The footer element features 2 uses of IDs: the first is to create a rounded edge on the bottom two corners to be 
+		cohesive with the header, and the second is used in the p tag to override an issue I was having where the section
+		stopped being centered when I changed the p style in css. 
+		I decided to use the footer as a source statement.
+		This section was created with reference to w3schools HTML IDs https://www.w3schools.com/html/html_id.asp -->
+<footer id="bottomCorners">
+  <p id="footerFix">This website was made by Kacy for GEOM101, Fleming College GIS program, 2021</p>
+</footer>
+
+</body>
+</html>

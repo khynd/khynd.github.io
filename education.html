@@ -1,0 +1,73 @@
+<!-- The layout of this document was made with reference to w3schools responsive design (https://www.w3schools.com/html/html_responsive.asp). 
+		The following Optional Choices are featured on this page: Responsive design (in head), 
+		Use of at least 3 semantic elements (header, footer, section, nav, article), 
+		5 images (this page has 1 of the 5)
+		-->
+		
+<!DOCTYPE html>
+<html>
+<!-- The head section displays the website title, reference to the css style sheet, and the requirements for a responsive website design.
+		Style was created with reference to the following w3schools: 
+			HTML elements (https://www.w3schools.com/html/html_elements.asp), 
+			HTML css (for external css line) (https://www.w3schools.com/html/html_css.asp), 
+			HTML Responsive website design (for the 2 lines starting with <meta ) (https://www.w3schools.com/html/html_responsive.asp) -->
+<head>
+<title>Kacy's Resume</title>
+<link rel="stylesheet" href="ResumeStyleSheet.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<!-- This element is mostly the same as the index page, but this one features a smaller h3 heading to show which page of the website you are on. 
+		Created with reference to w3schools headings (https://www.w3schools.com/html/html_headings.asp) -->
+<header id="topCorners">
+  <h2>Kacy's Resume</h2>
+  <h3> Education </h3>
+</header>
+<!-- The nav element is exactly the same in each of the 4 pages of this website, so I will refrain from over explaining it. -->
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Overview</a></li>
+      <li><a href="work.html">Professional Experience</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="skills.html">Skills and Attributes</a></li>
+    </ul>
+  </nav>
+  <!-- The article element features two main sections (Education History and Professional Development) which are styled using the h1 tag.
+		There are smaller topic headings delineated using h4. The 4th of 5 images is included here to show my summer school activities.
+		I have also used another list to display information in the second subsection.
+			Created with reference to the following w3schools:
+			HTML headings (https://www.w3schools.com/html/html_headings.asp)
+			HTML Images (https://www.w3schools.com/html/html_images.asp) 
+			HTML Lists (https://www.w3schools.com/html/html_lists.asp) -->
+  <article>
+    <h1>Education History</h1>
+	<h4>Geographic Information Systems-Application Specialist, 2021-Present</h4>
+    <p> Sir Sandford Fleming College, School of Environmental and Natural Resource Sciences </p>
+	<img src="images/field2020.jpg" alt="Field work done in the Ecosystem Management program, Summer 2020" class="floatRight">
+	<h4>Ecosystem Management Technician Program, 2019-2021</h4>
+    <p> Sir Sandford Fleming College, School of Environmental and Natural Resource Sciences </p>
+	<p> Attended over the summer during strict COVID protocols (pictured right) </p>
+	<h4>Honours BA (Cinema Studies Specialist), 2013-2018</h4>
+	<p> University of Toronto, Innis College </p>
+	<p> Also included a summer program at Oxford University in England, 2016 </p>
+	<h1>Professional Development</h1>
+    <ul>
+		<li>AODA Customer Service Standard Training, 2020</li>
+		<li>ORCKA Level 2, 2019</li>
+		<li>G Driver's License (Clean driving record)</li>
+		<li>Workplace Hazardous Materials Information System Training</li>
+		<li>Pleasure Craft Operator Card</li>
+		<li>Smart Serve Certification</li>
+	</ul>
+  </article>
+</section>
+<!-- The footer element is exactly the same in the 4 pages of this website so I will refrain from over explaining it.-->
+<footer id="bottomCorners">
+  <p id="footerFix">This website was made by Kacy for GEOM101, Fleming College GIS program, 2021</p>
+</footer>
+
+</body>
+</html>
