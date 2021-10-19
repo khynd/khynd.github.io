@@ -22,7 +22,7 @@ CSS align (https://www.w3schools.com/css/css_align.asp),
 CSS box model (https://www.w3schools.com/css/css_boxmodel.asp)  */
 .floatRight {
 	float: right;
-	width: 50%;
+	width: 100%;
 	height: auto;
 	max-width: 500px;
     padding: 10px;
@@ -31,9 +31,9 @@ CSS box model (https://www.w3schools.com/css/css_boxmodel.asp)  */
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 100%;
 	height: auto;
-	max-width: 500px;
+	max-width: 700px;
     padding: 10px;
 }
 
