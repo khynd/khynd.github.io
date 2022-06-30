@@ -1,1 +1,1 @@
-# khynd.github.io
+# https://khynd.github.io/
